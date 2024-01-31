@@ -1,7 +1,12 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/GDPVb20V)
 # Mystery Function
 
 What does the `mystery()` function in the following piece of code do? Add your
 answer to this markdown file.
+
+The function compares the value at the first index of the input with the value 
+of the rest of the input, moving to the next index recursively. It returns the 
+value if it is larger, or when the last value of the original input is reached.
 
 ```javascript
 function mystery(a) {
