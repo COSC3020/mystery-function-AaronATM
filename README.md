@@ -4,6 +4,10 @@
 What does the `mystery()` function in the following piece of code do? Add your
 answer to this markdown file.
 
+The function compares the value at the first index of the input with the value 
+of the rest of the input, moving to the next index recursively. It returns the 
+value if it is larger, or when the last value of the original input is reached.
+
 ```javascript
 function mystery(a) {
     if(a.length == 1) return a[0];
